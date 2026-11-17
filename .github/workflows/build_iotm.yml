@@ -38,10 +38,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install platformio
     - name: Run PlatformIO
-      if: always()
       run: platformio run 
     - name: Build FS
-      if: always()
       run: platformio run -t buildfs --disable-auto-clean
     - name: Rearrange Artifacts
       run: |
