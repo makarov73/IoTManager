@@ -170,7 +170,7 @@
             },
             {
                 "path": "src/modules/virtual/DiscoveryHA",
-                "active": false
+                "active": true
             },
             {
                 "path": "src/modules/virtual/DiscoveryHomeD",
